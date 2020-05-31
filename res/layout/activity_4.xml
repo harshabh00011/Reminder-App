@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Activity4">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="90pt"
+        app:srcCompat="@drawable/har" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30pt" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4sp"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textColor="@color/grayblack"
+        android:textSize="28sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15pt" />
+
+    <Button
+        android:id="@+id/add_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4sp"
+        android:paddingBottom="4sp"
+        android:text="Add Task"
+        android:background="@drawable/proceed"
+        android:textSize="24sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4sp"
+        android:paddingBottom="4sp"
+        android:text="START"
+        android:background="@drawable/start"
+        android:textSize="24sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4sp"
+        android:paddingBottom="4sp"
+        android:text="FINISH TASK"
+        android:background="@drawable/finishtask"
+        android:textSize="24sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4sp"
+        android:text="LOGOUT"
+        android:background="@drawable/logout"
+        android:textSize="24sp" />
+
+</LinearLayout>
